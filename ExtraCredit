@@ -1,0 +1,37 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Webbox</title>
+	<style> 
+	  body{
+		text-align: center;
+		background-color:black;
+		color: white;
+		font-family: Minimal; tall dark and handsome;
+		background-image: url(http://wallpapers.lawebdeldj.com/wp-content/uploads/2014/08/Mk2-CDJ-1000-indor-lights_www.djlogic.es_.jpg);
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+		a{
+		color: red
+		text-decoration:none;
+		transition: 1s to all;
+	}	
+		
+	a:visited{
+		color: red;
+	}
+	a:hover{
+		color: gold;
+	}
+	
+	</style>
+	<meta charset="utf-8">
+</head>
+<img alt="Rod Holzmann Logo"
+src="http://i.imgur.com/q6I3jpn.png" width=282">
+<h1>MY EXTRA CREDIT</h1>
+<h3> Officially Coded!</h3>
+<h3>START!</h3>
+<p> I guess i somewhat know my <a href="https://www.instagram.com/?hl=en"> HTML</a> and <a href="https://www.instagram.com/?hl=en"> CSS </a>. <br>
+<a href="https://www.instagram.com/?hl=en"> Due week 6.</a> <br> 
