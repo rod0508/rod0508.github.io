@@ -4,43 +4,96 @@
 	<title>Webbox</title>
 	<style> 
 	  body{
+	  	margin: 0; 
 		text-align: center;
-		background-color:black;
+		font-family: minimal;
 		color: white;
-		font-family: Minimal; tall dark and handsome;
-		background-image: url(http://i.imgur.com/7NY9ZyR.jpg);
-		background-size: cover;
-		background-repeat:no-repeat;
 		}
-		a{
-		color: red
-		text-decoration:none;
-		transition: 1s to all;
+		h1{
+		   font-family: 'minimal', serif;
+		   text-shadow: 2px 2px 2px gold;
+		   transition: 1s all;
+		   font-size: 34px;
+		   color: white; 
+         }
+
+         h1:hover{
+         	font-size: 40px;
+         	text-shadow:2px 2px 5px red;
+         }
+         a{	
+
+         	color: white;
+         	text-decoration: none;
+         	transition: 1s all;
+      	
 	}
 	a:visited{
-		color: grey;
+		color: gold;
+
 	}
 	a:hover{
 		color: red;
 	}
-	
+	#hero{
+      padding: 15px;
+      background:  url(http://i.imgur.com/11yLQBC.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;            
+    }
+
+    #what-we-do{
+      padding: 15px;
+      background: url(http://i.imgur.com/gAltcpF.jpg)
+      background-size: cover;
+      background-color: black;
+      outline-width: 2in;
+      outline-color: red;
+      padding: 15px;
+    }
+    #who-we-are{
+      padding: 15px;
+      background: url(http://i.imgur.com/gAltcpF.jpg)
+      background-size: cover;
+      background-color: black; 
+      outline-width: 2in;
+      outline-color: red;
+      padding: 15px;
+    }
+    nav{
+      position: left;
+      top: 50px;
+      right: 80px;
+    }
+
 	</style>
-	<meta charset="utf-8">
-</head>
-<img alt="Rod Holzmann Logo"
-src="http://i.imgur.com/q6I3jpn.png" width=282">
-
-<h1>Rod's Webbox</h1>
-<h3> branding designer & producer</h3>
-<p> This is a space for people to eventually see the limits of my creativity. FYI, this website is growing overtime;) <br>
-
+	</head>
+	<body>
+     <nav> 	
+     	<a href="#h1">Home</a> | <a href="#who-we-are">About</a> | <a href="#h1">Contact</a>
+  </nav>
+<section id="hero">
+	<img src="">
+<h1>Rod Holzmann Design</h1>
+<h3> Branding Designer & Music Producer</h3>
+<p> This is a space for people to eventually see the limits of my creativity. FYI, this website is growing overtime;)
+Copyright 2016 Rodolfo H. <br>
 <a href="https://www.instagram.com/?hl=en"> Instagram</a> <br> 
 <a href="https://www.facebook.com/rod0508"> Facebook</a> <br>
  <a href="https://soundcloud.com/rodholzmann"> Soundcloud</a> <br>
-<img alt="Rod Holzmann Logo"
-src="http://i.imgur.com/5QLpP5A.png" width=282">
+<img alt="Rod Holzmann Logo" src="http://i.imgur.com/5QLpP5A.png" width="282">
+</section>
+<section id="what-we-do">
+  <h1>What we do</h1>
+  <img alt="Rod Holzmann Icon" src="http://i.imgur.com/Mef47zf.png" width="282"> <br>
+  <img alt="Rod Holzmann T-shirt" src="http://i.imgur.com/0s1MOt0.jpg" width="282"> <br>
+<img alt="Beatport Magazine Cover"src="http://i.imgur.com/ovbIAna.png" width="282"><br></section>
+<section id="who-we-are">
+<h1>Who we are</h1>
+<img src="http://i.imgur.com/9YgsM9b.jpg" width="282">
+</section>
 <script>
 window.open("sale.html","","
   height=300,width=400","top:200,;left:800");
 </script>
-
+</body>
