@@ -39,12 +39,13 @@
       padding: 15px;
       background:  url(http://i.imgur.com/11yLQBC.jpg);
       background-size: cover;
-      background-repeat: no-repeat;            
+      background-repeat: no-repeat;
+      background-attachment: fixed;            
     }
 
     #what-we-do{
-      padding: 15px;
-      background: url(http://i.imgur.com/gAltcpF.jpg)
+      padding: 15px;  
+    background: -webkit-linear-gradient(left top,black, red, black);
       background-size: cover;
       background-color: black;
       outline-width: 2in;
@@ -52,55 +53,79 @@
       padding: 15px;
     }
     #who-we-are{
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, red, yellow, black);
       padding: 15px;
-      background: url(http://i.imgur.com/gAltcpF.jpg)
       background-size: cover;
       background-color: black; 
       outline-width: 2in;
       outline-color: red;
       padding: 15px;
+      overflow: hidden;
+
+    }
+    iframe {
+      margin: 0 auto;
+      display: block;
+
+    }
+    #resume{
+      margin: 0 auto;
+      display: block;
+
+
     }
     nav{
       position: left;
       top: 50px;
       right: 80px;
+      background-color: black;
     }
 
 	</style>
 	</head>
 	<body>
+
      <nav> 	
-     	<a href="#h1">Home</a> | <a href="#who-we-are">About</a> | <a href="#h1">Contact</a>
+     	<a href="#h1">Home</a> | <a href="#who-we-are">About</a> | <a href="#h1">Contact</a> | <a href="Portfolio.html">Portfolio</a> | <a href="#Social Media">Social Media</a>  
   </nav>
 <section id="hero">
-	<img src="">
-<h1>Rod Holzmann Design</h1>
-<h3> Branding Designer & Music Producer</h3>
+<h1>ROD HOLZMANN DESIGN</h1>
+<h3> Graphic Designer & Music Producer</h3>
 <p> This is a space for people to eventually see the limits of my creativity. FYI, this website is growing overtime;)
 Copyright 2016 Rodolfo H. <br>
-<a href="https://www.instagram.com/?hl=en"> Instagram</a> <br> 
-<a href="https://www.facebook.com/rod0508"> Facebook</a> <br>
- <a href="https://soundcloud.com/rodholzmann"> Soundcloud</a> <br>
+<a href="https://www.instagram.com/rodolfoholzmann/?hl=en"> Instagram.</a>  
+<a href="https://www.facebook.com/rod0508"> Facebook.</a> 
+ <a href="https://soundcloud.com/rodholzmann"> Soundcloud.</a> <br>
 <img alt="Rod Holzmann Logo" src="http://i.imgur.com/5QLpP5A.png" width="282">
 </section>
-<section id="what-we-do">
-  <h1>What we do</h1>
-  <p> we provide creative branding and graphic design. <a href="" onclick
+<section id="What-We-Do">
+  <h1>What We Do</h1>
+  <p> we provide creative branding and graphic design.</p> 
   <img alt="Rod Holzmann Icon" src="http://i.imgur.com/Mef47zf.png" width="282"> <br>
   <img alt="Rod Holzmann T-shirt" src="http://i.imgur.com/0s1MOt0.jpg" width="282"> <br>
 <img alt="Beatport Magazine Cover"src="http://i.imgur.com/ovbIAna.png" width="282"><br></section>
-<section id="who-we-are">
-<h1>Who we are</h1>
-<img src="http://i.imgur.com/9YgsM9b.jpg" width="282"><br>
-<a href="file:///Users/rodolfoholzmann/Desktop/prices.html"> Products & Pricing</a> <br>
+<section id="who-we-are"><br><a href="..">See More!</a><br>
+<h1>Who We Are</h1><br>
+<h2>Contact</h2>
+<img src="http://i.imgur.com/6AWAaGc.jpg" width="282"><br>
+<a href="file:///Users/rodolfoholzmann/Desktop/prices.html"><iframe id="resume" "resume" src="resume.pdf"></iframe>
+ Products & Pricing</a> <br>
+<SECTION id="Social Media">
+  <h1>Social Media</h1>
+<iframe src="http://snapwidget.com/bd/?u=cm9kb2xmb2hvbHptYW5ufGlufDIwMHwzfDN8fHllc3wyMHxub25lfG9uU3RhcnR8eWVzfG5v&ve=080316" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:666px; height:1041px"></iframe><br><!-- SnapWidget -->
+<iframe src="http://snapwidget.com/bd/?u=dGhlcm9kOTV8aW58MjAwfDN8M3x8eWVzfDIwfG5vbmV8b25TdGFydHx5ZXN8bm8=&ve=080316" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:666px; height:1041px"></iframe>
+</SECTION>
+<
 </section>
 <script>
-window.open("file:///Users/rodolfoholzmann/Desktop/prices.html","","height=300,width=400","top:300,left:800");
+window.open("file:///Users/rodolfoholzmann/Desktop/WEB%20DESIGN/prices.html");
 function Prices(event){
   window.open("Prices.html","","height=600,width=500","top:300,left:800");
   event.preventdefault();
   
 }
+
 </script>
 
 </body>
